@@ -37,10 +37,10 @@ The example data file comprises (all data are standardised, except row-number):
 ### Column 4: Salinity anomaly (ARGO)
 ### Column 5: Water depth (ETOPO 1; Amante & Eakins, 2009; https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/docs/ETOPO1.pdf)
 ### Column 6: Julian day
-### Column 7: Sea surface temperature omaly (deg.C, relative to daily climatology 2003-2016; MODIS-Aqua)
+### Column 7: Sea surface temperature (deg.C; MODIS-Aqua)
 ### Column 8: Lateral SST gradient
 ### Column 9: Change in SST per day (static pixels)
-### Column 10: Wind speed anomaly (relative to daily climatogolgy 2003-2016; Quikscat and ASCAT)
+### Column 10: Wind speed (Quikscat and ASCAT)
 ### Column 11: Photosynthetically-available radiation PAR (MODIS-Aqua)
 ### Column 12: Vertical Ekman pumping velocity w (calculated from wind stress curl and ARGO water density)
 ### Column 13: Lateral Ekman forcing M (calculated from wind stress and ARGO water density)
