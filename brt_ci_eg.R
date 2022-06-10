@@ -89,8 +89,8 @@ chlMeanFitDEVX <- array(0,dim=c(Nvars,maxTrees-1,100))
 
 for (iVar in 1:Nvars) {
 for (iTree in 1:(maxTrees-1)) {
-subset <- fitfunctions[iVar,,iTree,]
-subset2 <- fitfunctionsX[iVar,,iTree,]
+subset <- fitfunctionsCHLar[iVar,,iTree,]
+subset2 <- fitfunctionsCHLarX[iVar,,iTree,]
 for (iPos in 1:100) {
 chlMeanFitDEV[iVar,iTree,iPos] <-mean(subset[,iPos])
 chlSEFitDEV[iVar,iTree,iPos] <-mean(subset[,iPos])/10 #sqrt(N)=10
